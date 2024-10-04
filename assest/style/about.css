@@ -261,3 +261,27 @@ section {
     } 
     
 }
+
+/* # fix some breakpints for small devices  */ 
+
+@media screen and (max-width:499px) 
+{
+    .esmael__img {
+        left: 22%;
+    }
+    .section__quoutes{
+        padding-inline: 2rem;
+
+    } 
+
+    .skills__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    } 
+    .container {
+        width:100%;
+    }
+}
