@@ -80,7 +80,7 @@ a {
 @media screen and (max-width:600px) and (min-width:900px) 
 {
    .section__header-title {
-      font-size: 3rem;
+      font-size: 2rem;
    } 
 
    .section__cards {
@@ -96,7 +96,7 @@ a {
 @media screen and (max-width:900px) 
 {
    .container {
-      width: auto;
+      width: 100%;
    } 
 
    .section__cards {
@@ -133,6 +133,26 @@ a {
 
 
 
+} 
+
+
+@media screen and (max-width:500px) 
+
+{
+   .container {
+      width: 100%;
+   }
+   
+   .section {
+      
+      align-items: center;
+
+   }
+   
+   .section__header-title {
+      font-size: 1.5rem;
+      
+   } 
 }
 
 hr {
