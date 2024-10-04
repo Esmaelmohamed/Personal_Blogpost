@@ -1,0 +1,141 @@
+@import url("../style/base.css");
+@import url("../style/header.css"); 
+@import url("../style/educationsection.css");
+@import url("../style/herosection.css");
+@import url("../style/footer.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap'); 
+
+
+
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+} 
+
+
+:root {
+   --first-color:#E6E6E6; 
+   --seond-color:#FFE1A0; 
+    /* google fonts  */ 
+    --header-font:"Bungee", sans-serif; 
+    --font-weight:400; 
+
+
+
+}
+
+body {
+   background-color: var(--first-color);
+}
+
+img {
+   width: 100%;
+   display: block;
+   height: auto;
+} 
+
+ul li {
+   list-style: none; 
+    
+}
+ 
+a {
+   text-decoration: none; 
+} 
+
+.container {
+   max-width: 1400vw;
+}
+
+/* ########## Breakpoints ############# */ 
+@media screen and (max-width:320px) 
+{
+
+
+
+   .section__cards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 1rem;
+   } 
+
+   .card__one {
+      width: 300px;
+   }
+
+   .section__header-title {
+      font-size: 2rem;
+   }
+
+
+}  
+
+
+@media screen and (max-width:600px) and (min-width:900px) 
+{
+   .section__header-title {
+      font-size: 3rem;
+   } 
+
+   .section__cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   }  
+
+   
+} 
+
+@media screen and (max-width:900px) 
+{
+   .container {
+      width: auto;
+   } 
+
+   .section__cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+   }
+
+   .card__one {
+     width: 200px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     column-gap: 1rem;
+   }
+
+   .card__one p {
+      text-align: center;
+   }
+
+
+@media screen and (min-width:901px )
+{
+   .section__cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+   }  
+
+}
+
+
+
+}
+
+hr {
+   margin-top: 1rem;
+}
+

@@ -1,0 +1,20 @@
+footer {
+    background-color: hsla(229, 100%, 59%, 4); 
+    color: white; 
+    padding-block: 7rem;
+ 
+ } 
+ 
+ 
+ footer .footer__container{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center; 
+    column-gap: 3rem;
+ 
+ }
+ 
+ .footer__links i {
+    font-size: 4rem;
+ }

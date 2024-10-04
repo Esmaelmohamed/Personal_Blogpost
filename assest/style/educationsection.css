@@ -1,0 +1,85 @@
+/* ########### Education ##############  */ 
+
+.section__education {
+    padding-block: 7rem; 
+    background-color: transparent;
+ 
+ }
+ .section__title {
+    text-align: left;
+    font-size: 4rem;
+ }
+ 
+ .section__cards {
+    display: grid; 
+    grid-template-columns: 300px 300px 300px; 
+    justify-content:space-between;
+    align-items: center;
+    align-self: center;
+    
+ 
+ }
+ 
+ .section__cards .card__one {
+ 
+    display: flex;
+    flex-direction: column;
+    padding-block: 2rem; 
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1)
+      0px 24px 80px;
+ 
+    
+ }
+ 
+ .section__cards .card__one i {
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+    
+ 
+ } 
+ 
+ 
+ .section__cards .card__one:hover {
+    transform: translateY(-10px);
+    background-color: hsla(229, 100%, 59%, 1);
+    color:white;  
+    transition: transform .7s , background-color 1s , color 1s; 
+ 
+ }
+ 
+ .card__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+ } 
+ 
+ .education__title , .section__title{
+    color: black;
+ }
+ 
+ #education {
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    width: 100%;
+ }
+ 
+ 
+ .section__title {
+    font-family: var(--header-font);
+    font-weight: var(--font-weight);
+    font-size:3rem;
+    color: black;
+    padding-bottom: 1rem;
+ }
+ 
